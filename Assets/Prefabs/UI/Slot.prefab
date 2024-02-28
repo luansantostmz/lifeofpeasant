@@ -435,3 +435,4 @@ MonoBehaviour:
   itemIcon: {fileID: 7424267140378340938}
   quantityText: {fileID: 8973185341233238291}
   indexSlot: 0
+  buttonDelete: {fileID: 5391037395965645367}

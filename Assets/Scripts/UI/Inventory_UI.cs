@@ -45,4 +45,9 @@ public class Inventory_UI : MonoBehaviour
 			}
 		}
 	}
+
+	public void Remove(int slotID)
+	{
+		player.Inventory.Remove(slotID);
+	}
 }

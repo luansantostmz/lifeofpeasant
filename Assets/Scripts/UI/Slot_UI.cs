@@ -10,6 +10,14 @@ public class Slot_UI : MonoBehaviour
 	public TextMeshProUGUI quantityText;
 
 	public int indexSlot;
+
+	public GameObject buttonDelete;
+
+
+	private void Update()
+	{
+		buttonDelete.SetActive(itemIcon.sprite == null ? false : true);
+	}
 	public void SetItem(Inventory.Slot slot) 
 	{
 		if(slot != null) 
